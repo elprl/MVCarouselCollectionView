@@ -172,7 +172,7 @@ public class MVCarouselCollectionView: UICollectionView, UICollectionViewDataSou
         self.clientDidRequestScroll = true;
         
         let indexPath = IndexPath(row: currentPageIndex, section: 0)
-        self.scrollToItem(at: indexPath, at:UICollectionViewScrollPosition.centeredHorizontally, animated: animated)
+        self.scrollToItem(at: indexPath, at: UICollectionView.ScrollPosition.centeredHorizontally, animated: animated)
     }
     
     
