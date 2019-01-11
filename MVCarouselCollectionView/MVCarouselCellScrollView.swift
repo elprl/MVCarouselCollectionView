@@ -85,7 +85,6 @@ class MVCarouselCellScrollView: UIScrollView, UIScrollViewDelegate {
         let horzContentInset = cellAspectRatioWiderThanImage ? 0.5 * (cellSize.width - adjustedContentWidth) : 0.0
         let adjustedContentHeight = cellSize.width / imageAspectRatio
         let vertContentInset = !cellAspectRatioWiderThanImage ? 0.5 * (cellSize.height - adjustedContentHeight) : 0.0
-        
         self.contentInset = UIEdgeInsets(top: vertContentInset, left: horzContentInset, bottom: vertContentInset, right: horzContentInset)
     }
     
