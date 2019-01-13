@@ -23,7 +23,7 @@
 import UIKit
 
 // Image loader closure type
-public typealias MVImageLoaderClosure = ((_ imageView: UIImageView, _ imagePath : String, _ completion: (_ newImage: Bool) -> ()) -> ())
+public typealias MVImageLoaderClosure = ((_ imageView: UIImageView, _ imagePath : String, _ completion: @escaping (_ newImage: Bool) -> ()) -> ())
 
 class MVCarouselCellScrollView: UIScrollView, UIScrollViewDelegate {
     
